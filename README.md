@@ -72,10 +72,11 @@ else:
 ```
 
 ## Requirements
-- Python 3.6 or higher
+- Python 3.10 or higher
 - Required Python packages:
   - librosa
   - numpy
+  - scipy
 
 These dependencies are automatically installed when you install the package via pip.
 
