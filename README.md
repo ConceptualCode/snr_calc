@@ -37,7 +37,7 @@ pip install snr_calc
 ### Calculating SNR for a Single File
 
 ```bash
-from my_snr_package import process_audio_file
+from snr_calc import process_audio_file
 
 # Specify the path to the audio file
 audio_file_path = "path/to/your/audio_file.wav"
@@ -55,7 +55,7 @@ else:
 ### Calculating SNR for All Files in a Directory
 
 ```bash
-from my_snr_package import process_directory
+from snr_calc import process_directory
 
 # Specify the path to the directory
 directory_path = "path/to/your/audio_directory"
