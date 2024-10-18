@@ -106,5 +106,3 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 - **Requirements:** Lists package dependencies.
 - **Contributing:** Offers guidelines for developers who want to contribute to the package.
 - **License:** States the license under which the package is distributed. Adjust it as needed.
-
-This `README.md` will provide users with clear instructions on using and contributing to the package.
