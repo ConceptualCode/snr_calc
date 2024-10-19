@@ -43,7 +43,7 @@ from snr_calc import process_audio_file
 audio_file_path = "path/to/your/audio_file.wav"
 
 # Calculate SNR with a custom signal frequency range and sample rate
-snr_value = process_audio_file(audio_file_path, signal_freq_range=(500, 4000), sample_rate=16000)
+snr_value = process_audio_file(audio_file_path, signal_freq_range=(500, 4000), sample_rate=None)
 
 # Display the SNR result
 if snr_value is not None:
@@ -61,7 +61,7 @@ from snr_calc import process_directory
 directory_path = "path/to/your/audio_directory"
 
 # Calculate SNR for all audio files in the directory
-snr_results = process_directory(directory_path, signal_freq_range=(500, 4000), sample_rate=16000)
+snr_results = process_directory(directory_path, signal_freq_range=(500, 4000), sample_rate=None)
 
 # Display the SNR results for each file
 if snr_results:
